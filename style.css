@@ -1,0 +1,91 @@
+
+
+body{
+    height: 100%;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1.3em;
+    background: wheat;
+}
+h2{
+    background: rgba(128, 128, 128, 0.204);
+    font-family: 'verdana', sans-serif;
+}
+.ingredientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+
+    
+
+}
+.ingredientes h1{
+    text-align: center;
+    color: #ff6a28;
+   
+}
+.ingredientes h2{
+    text-align: center;
+   
+}
+.ingredientes li{
+    padding-bottom:8px ;
+    font-size: 13px;
+}
+.icon{
+    height: 25px;
+    width: 25px;
+  padding-top: 2px ;
+}
+.receita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    min-height:100%;
+}
+.receita h1{
+    text-align: center;
+    color: #ff6a28;
+    
+   
+}
+.receita h2{
+    text-align: center;
+   
+}
+.receita p{
+ 
+    font-size: 13px;
+ }
+.receita li{
+    padding-bottom:8px ;
+    font-size: 18px;
+    
+}
+.receita img{
+    height: 25px;
+    width: 25px;
+  padding-top: 2px ;
+}
+.sub::first-letter{
+    text-transform: uppercase;
+}
+.sub{
+    text-decoration: underline;
+}
+.imagens{
+    margin-left: 30px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid rgba(0, 0, 0, 0.514);
+    border-radius: 7px;
+}
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    font-size: 35px;
+}
